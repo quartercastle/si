@@ -51,6 +51,7 @@ type ElectricResistance = float64
 type Angle = float64
 type Area = float64
 type Volume = float64
+type Data = float64
 type Datarate = float64
 type Datasize = float64
 type Luminance = float64
