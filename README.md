@@ -22,7 +22,7 @@ To prove my point i have created an example using Einstein's mass-energy equival
 ```
 
 As it can be seen in the example above casting ends up hurting readability and
-it really doesn't add anything in terms of type safty because casting will be so
+it really doesn't add anything in terms of type safety because casting will be so
 prevalent. It will only be as safe as the aliased approach used in this library.
 
 Another benefit is that derived si types can easily be defined on the fly, this
