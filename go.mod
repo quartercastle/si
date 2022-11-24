@@ -1,3 +1,3 @@
-module github.com/kvartborg/si
+module github.com/quartercastle/si
 
 go 1.18

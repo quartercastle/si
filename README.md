@@ -1,7 +1,7 @@
 # si
 
-[![GoDoc](https://godoc.org/github.com/kvartborg/si?status.svg)](https://pkg.go.dev/github.com/kvartborg/si?tab=doc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kvartborg/si)](https://goreportcard.com/report/github.com/kvartborg/si)
+[![GoDoc](https://godoc.org/github.com/quartercastle/si?status.svg)](https://pkg.go.dev/github.com/quartercastle/si?tab=doc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/quartercastle/si)](https://goreportcard.com/report/github.com/quartercastle/si)
 
 > NOTE: this is still a work in progress
 
@@ -35,7 +35,7 @@ const SpeedOfLight = 299792458 * (Meter/Second)
 It will also work well with the `math` package from standard lib or any other
 thirdparty library which is using `float64` as input or output types.
 Below is an example of how it could be used with a
-[vector](https://github.com/kvartborg/vector) package.
+[vector](https://github.com/quartercastle/vector) package.
 
 ```go
 Vector{10 * (Meter/Second)}.Rotate(45*Degree)
@@ -44,7 +44,7 @@ Vector{10 * (Meter/Second)}.Rotate(45*Degree)
 ### Install
 
 ```sh
-go get github.com/kvartborg/si
+go get github.com/quartercastle/si
 ```
 
 ### Usage
@@ -66,4 +66,4 @@ previously. It would not exist without the knowledge i have gained by using this
 library.
 
 ## License
-This project is licensed under the [MIT License](https://github.com/kvartborg/si/blob/master/LICENSE).
+This project is licensed under the [MIT License](https://github.com/quartercastle/si/blob/master/LICENSE).
